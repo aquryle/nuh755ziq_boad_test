@@ -1,0 +1,84 @@
+Configuration	nuh755ziq_boad_test
+STM32CubeMX 	6.16.0
+Date	12/14/2025
+MCU	STM32H755ZITx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DEBUG	Trace Asynchronous Sw	DEBUG_JTMS-SWDIO	PA13 (JTMS/SWDIO)
+DEBUG	Trace Asynchronous Sw	DEBUG_JTCK-SWCLK	PA14 (JTCK/SWCLK)
+DEBUG	Trace Asynchronous Sw	DEBUG_JTDO-SWO	PB3 (JTDO/TRACESWO)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN (PH0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT (PH1)
+SYS_M4	SysTick	SYS_M4_VS_Systick	VP_SYS_M4_VS_Systick
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM13	Enable_Timer	TIM13_VS_ClockSourceINT	VP_TIM13_VS_ClockSourceINT
+TIM14	Enable_Timer	TIM14_VS_ClockSourceINT	VP_TIM14_VS_ClockSourceINT
+USART3	Asynchronous	USART3_RX	PD9
+USART3	Asynchronous	USART3_TX	PD8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+25	PH0-OSC_IN (PH0)	RCC_OSC_IN	
+26	PH1-OSC_OUT (PH1)	RCC_OSC_OUT	
+49	PB0	GPIO_Output	LD1
+76	PD8	USART3_TX	
+77	PD9	USART3_RX	
+102	PA13 (JTMS/SWDIO)	DEBUG_JTMS-SWDIO	
+107	PA14 (JTCK/SWCLK)	DEBUG_JTCK-SWCLK	
+130	PB3 (JTDO/TRACESWO)	DEBUG_JTDO-SWO	
+139	PE1	GPIO_Output	LD2
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DEBUG	Trace Asynchronous Sw	DEBUG_JTMS-SWDIO	PA13 (JTMS/SWDIO)
+DEBUG	Trace Asynchronous Sw	DEBUG_JTCK-SWCLK	PA14 (JTCK/SWCLK)
+DEBUG	Trace Asynchronous Sw	DEBUG_JTDO-SWO	PB3 (JTDO/TRACESWO)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN (PH0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT (PH1)
+SYS_M4	SysTick	SYS_M4_VS_Systick	VP_SYS_M4_VS_Systick
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM13	Enable_Timer	TIM13_VS_ClockSourceINT	VP_TIM13_VS_ClockSourceINT
+TIM14	Enable_Timer	TIM14_VS_ClockSourceINT	VP_TIM14_VS_ClockSourceINT
+USART3	Asynchronous	USART3_RX	PD9
+USART3	Asynchronous	USART3_TX	PD8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+25	PH0-OSC_IN (PH0)	RCC_OSC_IN	
+26	PH1-OSC_OUT (PH1)	RCC_OSC_OUT	
+49	PB0	GPIO_Output	LD1
+76	PD8	USART3_TX	
+77	PD9	USART3_RX	
+102	PA13 (JTMS/SWDIO)	DEBUG_JTMS-SWDIO	
+107	PA14 (JTCK/SWCLK)	DEBUG_JTCK-SWCLK	
+130	PB3 (JTDO/TRACESWO)	DEBUG_JTDO-SWO	
+139	PE1	GPIO_Output	LD2
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : nuh755ziq_boad_test
+Project Folder : /Users/sata/STM32CubeIDE/workspace_2.0.0/nuh755ziq_boad_test
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_H7 V1.12.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
